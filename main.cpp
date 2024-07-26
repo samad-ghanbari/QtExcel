@@ -14,5 +14,5 @@ int main(int argc, char *argv[])
     xlsx.write(1,1,QVariant("Hello World"));
     xlsx.saveAs("file.xlsx");
 
-    return a.exec();
+    return 1;
 }
